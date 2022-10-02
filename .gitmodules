@@ -1,0 +1,9 @@
+[submodule "homework-05-02"]
+	path = homework-05-02
+	url = https://github.com/Mega-light/homework-05-02.git
+[submodule "homework-06-01"]
+	path = homework-06-01
+	url = https://github.com/Mega-light/homework-06-01.git
+[submodule "homework-07-02-karate"]
+	path = homework-07-02-karate
+	url = https://github.com/Mega-light/homework-07-02-karate.git

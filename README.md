@@ -2,9 +2,14 @@
 
 ## Instructions
 
-Define in the [testng.xml](src/test/resources/testng.xml) the browsers you wish to support.
-Modify [DriverFactory.java](src/test/java/utils/DriverFactory.java) to instantiate such browsers
-in case you do not wish to use [WebDriverManager](https://bonigarcia.dev/webdrivermanager/).
+In the test lifecycle, use -Dbrowser to select the browser option. You can use drivers like:
+* Chrome
+* Firefox
+* Edge
+* Opera
+* Chromium
+* Safari
+* IExplorer
 
 ## Exercise
 1. Parameterize your project, so you can send the browser option from the command line. E.g: mvn test –Dbrowser=firefox
